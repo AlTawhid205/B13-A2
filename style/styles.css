@@ -247,3 +247,48 @@ main{
   display: flex;
   gap: 40px;
 }
+
+
+/* responsive area */
+
+@media screen and (max-width:576px) {
+  .main-body{
+  text-align: center;
+  padding: 0 20px;
+  margin: 0 auto;
+} 
+
+.hero-container{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+.milestone{
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 80px;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+.main-grid-area{
+  grid-template-columns: repeat(1, 1fr);
+}
+.grid-section{
+  padding:20px;
+  margin: 0 auto;
+}
+.i-farme{
+  grid-template-columns: repeat(1, 1fr);
+  padding: 20px;
+}
+.challenge{
+  display: flex;
+  flex-direction: column;
+}
+.challenge-part{
+  margin:  20px;
+}
+.main-part{
+  padding: 20px;
+}
+}
