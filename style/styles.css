@@ -69,11 +69,14 @@ margin-bottom: 24px;
   font-weight: 600;
   padding: 12.5px 20px;
   border-radius: 30px;
+  border: none;
+  margin-right: 20px;
 }
 .hero-btn2{
   border: 1px solid #00FF88;
   background: transparent;
   color: #00FF88;
+  align-items: center;
 }
 main{
   background-color:#1A0B2E;
