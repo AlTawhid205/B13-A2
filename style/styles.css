@@ -193,3 +193,33 @@ main{
   margin-top: 120px;
   margin-bottom: 40px;
 }
+
+.challenge-part{
+  margin: 120px 200px;
+}
+.challenge-part h3{
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+.challenge{
+  background-color: #351165;
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+}
+.main-part h2{
+  font-size: 2.6rem;
+}
+.host img{
+  margin: 40px;
+}
+.main-part p{
+  line-height: 24px;
+  margin: 16px 0;
+}
+.main-part img{
+  padding:15px;
+  border: 1px solid #7b2cff;
+  border-radius: 100%;
+}
