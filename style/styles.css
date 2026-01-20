@@ -291,4 +291,17 @@ main{
 .main-part{
   padding: 20px;
 }
+.foot .social{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.copy{
+  margin-top: 20px;
+}
+.bottom-info{
+  padding-bottom: 20px;
+}
+
+
 }
