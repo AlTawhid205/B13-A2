@@ -253,6 +253,29 @@ main{
 }
 
 
+.animation{
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(9) infinite, blink 0.9s infinite;
+  margin: 0 auto;
+}
+@keyframes typing{
+  0%{
+    width: 0;
+  }
+  50%{
+    width: 8ch;
+  }
+  100%{
+    width: 0;
+  }
+}
+@keyframes blink{
+  50%{
+    border-color: transparent;
+  }
+}
+
 /* responsive area */
 
 @media screen and (max-width:576px) {
